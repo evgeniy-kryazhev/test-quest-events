@@ -1,0 +1,59 @@
+$border-container-color: #42567a;
+$width: 1440px;
+
+.container {
+  margin: 0 auto;
+  border-left: 1px solid $border-container-color;
+  border-right: 1px solid $border-container-color;
+  width: $width;
+  min-height: 100vh;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.header {
+  position: relative;
+  height: 134px;
+
+  & > h1 {
+    position: absolute;
+    width: 353px;
+    left: 78px;
+
+    font-family: "PT Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 120%;
+
+    color: $border-container-color;
+  }
+}
+.header::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 5px;
+  height: 100%;
+  background: linear-gradient(#3877ee, #ef5da8);
+}
+
+.swiper-buttons{
+    display: flex;
+    flex-direction: row;
+    margin: 1rem;
+}
+
+.swiper-button{
+    height: 50px;
+    width: 50px;
+    border: 1px solid $border-container-color;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}

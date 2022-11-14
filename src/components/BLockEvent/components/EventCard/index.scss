@@ -1,0 +1,19 @@
+.event-card {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  width: 320px;
+}
+.event-card > article {
+  color: #3877ee;
+  text-decoration: underline;
+  font-family: "Bebas Neue";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 120%;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+}

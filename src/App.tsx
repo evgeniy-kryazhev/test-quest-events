@@ -1,12 +1,13 @@
 import "./styles/App.scss";
 import React, { Component } from "react";
+import BLockEvent from "./components/BLockEvent";
 
 class App extends Component {
     render() {
         return (
-            <div>
-                <h1>My React App!</h1>
-            </div>
+            <BLockEvent>
+                <h1>hello world</h1>
+            </BLockEvent>
         );
     }
 }
